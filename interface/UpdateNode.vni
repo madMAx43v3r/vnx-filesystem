@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class UpdateNode extends Transaction {
+	
+	vnx.Hash128 new_node;
+	
+}

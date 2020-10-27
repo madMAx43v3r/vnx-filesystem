@@ -1,0 +1,15 @@
+package vnx.filesystem;
+
+class Commit {
+	
+	vnx.Hash128 src_hash;
+	vnx.Hash128 dst_hash;
+	
+	vector<Transaction*> transactions;
+	
+	
+	vnx.Buffer encrypt() const;
+	
+	static Commit* decrypt(vnx.Buffer data);
+	
+}

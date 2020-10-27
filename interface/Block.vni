@@ -1,0 +1,9 @@
+package vnx.filesystem;
+
+class Block extends Node {
+	
+	vnx.Buffer data;
+	
+	static const uint MAX_SIZE = 65535;
+	
+}

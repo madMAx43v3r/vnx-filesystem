@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+enum key_type_e {
+	
+	RSA_4096
+	
+}

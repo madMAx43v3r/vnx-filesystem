@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class Transaction {
+	
+	string name;
+	
+}

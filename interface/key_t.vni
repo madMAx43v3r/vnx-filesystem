@@ -1,0 +1,9 @@
+package vnx.filesystem;
+
+struct key_t {
+	
+	vnx.Buffer data;
+	
+	key_type_e type;
+	
+}

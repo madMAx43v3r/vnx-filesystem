@@ -1,0 +1,9 @@
+package vnx.filesystem;
+
+class Directory extends Entity {
+	
+	key_t public_key;
+	
+	map<string, Entity*> nodes;
+	
+}

@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class Node {
+	
+	vnx.Hash128 hash;
+	
+}

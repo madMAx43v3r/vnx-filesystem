@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class Entity extends Node {
+	
+	string name;
+	
+}

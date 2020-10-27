@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class File extends Entity {
+	
+	vnx.Buffer data;
+	
+}

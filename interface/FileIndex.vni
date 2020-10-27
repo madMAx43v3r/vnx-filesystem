@@ -1,6 +1,6 @@
 package vnx.filesystem;
 
-class FileIndex extends Entity {
+class FileIndex extends File {
 	
 	vector<vnx.Hash128> blocks;
 	

@@ -4,6 +4,10 @@ class Entity extends Node {
 	
 	string name;
 	
+	vnx.Object meta;
+	
 	vector<user_entry_t> users;
+	
+	bool inherit_users;					// if to inherit users from parent
 	
 }

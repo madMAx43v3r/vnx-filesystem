@@ -1,13 +1,13 @@
 package vnx.filesystem;
 
-class UpdateUser extends Transaction {
+class UpdateMeta extends Transaction {
 	
 	string name;			// file name or '.' for current directory
 	
 	update_mode_e mode;
 	
-	user_entry_t entry;
+	vnx.Variant key;
 	
-	bool inherit_users;
+	vnx.Variant value;
 	
 }

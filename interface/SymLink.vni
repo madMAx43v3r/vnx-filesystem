@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class SymLink extends Entity {
+	
+	string path;
+	
+}

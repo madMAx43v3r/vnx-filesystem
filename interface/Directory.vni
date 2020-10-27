@@ -2,8 +2,10 @@ package vnx.filesystem;
 
 class Directory extends Entity {
 	
-	key_t public_key;
+	map<string, node_entry_t> nodes;
 	
-	map<string, Entity*> nodes;
+	bool is_public;						// if anybody can add files
+	
+	bool inherit_users;					// if to inherit users from parent
 	
 }

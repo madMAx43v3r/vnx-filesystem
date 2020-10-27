@@ -2,6 +2,10 @@ package vnx.filesystem;
 
 class UpdateNode extends Transaction {
 	
-	vnx.Hash128 new_node;
+	string name;
+	
+	vnx.Hash128 old_hash;
+	
+	vnx.Hash128 new_hash;
 	
 }

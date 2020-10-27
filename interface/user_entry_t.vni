@@ -1,0 +1,9 @@
+package vnx.filesystem;
+
+struct user_entry_t {
+	
+	key_t public_key;
+	
+	user_level_e level;
+	
+}

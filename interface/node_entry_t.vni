@@ -1,8 +1,8 @@
 package vnx.filesystem;
 
-class Entity extends Node {
+struct node_entry_t {
 	
-	string name;
+	vnx.Hash128 hash;
 	
 	vector<user_entry_t> users;
 	

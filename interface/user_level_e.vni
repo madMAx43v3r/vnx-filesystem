@@ -1,0 +1,10 @@
+package vnx.filesystem;
+
+enum user_level_e {
+	
+	ANYBODY,			// read-only access
+	MEMBER,				// can add files
+	MAINTAINER,			// can add, update and delete files
+	OWNER				// can change permissions too
+	
+}

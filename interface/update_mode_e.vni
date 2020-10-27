@@ -1,0 +1,9 @@
+package vnx.filesystem;
+
+enum update_mode_e {
+	
+	ADD,
+	UPDATE,
+	DELETE
+	
+}

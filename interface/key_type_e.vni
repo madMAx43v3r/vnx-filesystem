@@ -2,6 +2,8 @@ package vnx.filesystem;
 
 enum key_type_e {
 	
+	RSA_1024,
+	RSA_2048,
 	RSA_4096
 	
 }

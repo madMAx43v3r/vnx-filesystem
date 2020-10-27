@@ -1,0 +1,7 @@
+package vnx.filesystem;
+
+class AddNode extends Transaction {
+	
+	Entity node;
+	
+}

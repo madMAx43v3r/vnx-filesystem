@@ -2,6 +2,8 @@ package vnx.filesystem;
 
 class DeleteNode extends Transaction {
 	
+	string name;
 	
+	vnx.Hash128 old_hash;
 	
 }

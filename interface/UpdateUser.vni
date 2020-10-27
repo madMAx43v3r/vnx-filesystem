@@ -1,0 +1,11 @@
+package vnx.filesystem;
+
+class UpdateUser extends Transaction {
+	
+	string name;			// file name or '.' for current directory
+	
+	update_mode_e mode;
+	
+	user_entry_t entry;
+	
+}
